@@ -5,3 +5,7 @@ libcurl.dll
 secp256k1.dll
 
 在比特币的椭圆加密算法库，包括私钥算公钥，交易签名等功能。可以在 https://github.com/bitcoin-core/secp256k1 找到源码。
+
+测试网和主网
+
+API.cpp的17到31行为测试网和主网切换设置
